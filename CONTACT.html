@@ -32,9 +32,9 @@
             <!--- Add a link tag around the <li>Lastest news</li> tag that refers to news.html --->
             <a href="NEWS.HTML"><li>Latest news</li></a>
             <!--- Add a link tag around the <li>New games</li> tag that refers to games.html  --->
-            <a href=""><li>New games</li></a>
+            <a href="GaMES.html"><li>New games</li></a>
             <!--- Add a link tag around the <li>Contact</li> tag that refers to contact.html and inside the link tag add a class attribute named "join" --->
-            <li>>Contact</li>
+            <a href="contact.html"><li class="join">Contact</li></a>
         </ul>
     </nav>
     <main>
@@ -87,19 +87,23 @@
                 </datalist>
                 <br />
                 <!--- Add a form textarea tag with a name attribute "question" and set the rows attribute equal to number "4" and set the cols attribute equal to "40" and finally add a placeholder attribute with following text "Ask a question" --->
-
+                <form action="">
+                    <textarea name="question" rows="4" cols="40" placeholder="Ask a question"></textarea>
+                </form>
 
 
                 <!--- Add a form input type submit-button which submits all form values to a form-handler and finally add a value attribute with following text "Get in Touch" --->
-
+                <form action="">
+                    <input value="Get in Touch" type="button">
+                </form>
 
             </form>
         </article>
         <ul class="images">
             <!--- Add an image tag inside <li> tag that displays image "thumb-1.jpg" and add an alt-attribute with following text "mario thumbnail 1 --->
-            <li></li>
+            <li><img src="img/Thumb-1.JPG" alt="mario thumbnail 1"></li>
             <!--- Add an image tag inside <li> tag that displays image "thumb-2.jpg" and add an alt-attribute with following text "mario thumbnail 2 --->
-            <li></li>
+            <li><img src="img/Thumb 2.jpg" alt="mario thumbnail 2"></li>
         </ul>
     </main>
     <section class="join">
